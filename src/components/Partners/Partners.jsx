@@ -10,7 +10,7 @@ const Partners = () => {
       <div className="max-w-7xl mx-auto px-4">
         {/* Section Heading */}
         <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-center text-gray-800">
-          Clients & Partners
+          Clients / Partners
         </h2>
 
         {/* Decorative Line */}
@@ -46,8 +46,10 @@ const Partners = () => {
                 <Image
                   src={`/images/partners/${src}`}
                   alt={`Partner Logo ${index + 1}`}
-                  width={150} // Fixed width
-                  height={150} // Fixed height
+                  width={150}
+                  height={150}
+                  quality={90} // Higher quality setting
+                  priority={index < 6} // Set priority for first few images
                   className="opacity-90"
                 />
               </div>
@@ -77,8 +79,9 @@ const Partners = () => {
                 <Image
                   src={`/images/partners/${src}`}
                   alt={`Partner Logo ${index + 1}`}
-                  width={150} // Fixed width
-                  height={150} // Fixed height
+                  width={150}
+                  height={150}
+                  quality={90} // Higher quality setting
                   className="opacity-90"
                 />
               </div>
@@ -90,8 +93,8 @@ const Partners = () => {
       {/* CSS for Animation */}
       <style jsx>{`
         .animate-scroll {
-          animation: scroll 40s linear infinite; /* Slower animation duration */
-          width: max-content; /* Ensures the width is enough for all images */
+          animation: scroll 40s linear infinite;
+          width: max-content;
         }
 
         @keyframes scroll {
@@ -99,16 +102,13 @@ const Partners = () => {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(
-              -50%
-            ); /* Move the whole length of the container */
+            transform: translateX(-50%);
           }
         }
 
-        /* Slower scroll animation for mobile screens */
         @media (max-width: 640px) {
           .animate-scroll {
-            animation: scroll 40s linear infinite; /* Even slower for mobile */
+            animation: scroll 40s linear infinite;
           }
         }
       `}</style>
