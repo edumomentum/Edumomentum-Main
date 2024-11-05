@@ -22,7 +22,7 @@ const brands = [
       "Partnerships with academic institutions and industry leaders.",
       "Mission to support 10 million teachers in STEM and practical learning by 2030.",
     ],
-    logo: "/images/isrc.jpg",
+    logo: "/images/isrc2.jpg",
     link: "https://www.isrc.org.in",
     isExternal: true,
   },
@@ -39,24 +39,8 @@ const brands = [
       "Offshore Development: Providing cost-effective development services for international clients.",
       "Digital Marketing: Helping businesses maximize their online presence through SEO, social media, and content marketing.",
     ],
-    logo: "/images/c4b.jpg",
+    logo: "/17.png",
     link: "https://code4bharat.org/",
-    isExternal: false,
-  },
-  {
-    name: "Education.Code4Bharat: Transforming Learning through IT",
-    tagline: "Building Careers, Empowering Futures",
-    shortDescription: "IT Education",
-    detailedDescription:
-      "Education.Code4Bharat is the educational arm of Code4Bharat, focused on equipping individuals with the IT skills and knowledge necessary to succeed in today’s competitive job market. Through comprehensive training programs and job placement assistance, Education.Code4Bharat bridges the gap between education and employment by providing practical, industry-aligned courses.",
-    keyFeatures: [
-      "IT Courses: A wide range of training programs covering web development, app development, software engineering, data science, and more.",
-      "Hands-On Learning: Our courses emphasize practical learning through projects and real-world case studies, ensuring students gain job-ready skills.",
-      "Job Placement Assistance: We provide job placement services to help students secure positions in top IT firms and companies worldwide.",
-      "Career Development: Personalized career counseling and professional development services to help students succeed in the IT industry.",
-    ],
-    logo: "/images/edu.c4b.jpeg",
-    link: "/brands/brand-three",
     isExternal: false,
   },
   {
@@ -72,27 +56,11 @@ const brands = [
       "Performance Advertising: Running high-converting ads across Google, Facebook, and Instagram.",
       "Analytics & Strategy: In-depth analysis and strategy creation for improving ROI.",
     ],
-    logo: "/images/marketiqjunction.jpg",
+    logo: "/38.png",
     link: "/brands/marketiq-junction",
     isExternal: false,
-  },
-  {
-    name: "Education.MarketIQ Junction: Transforming Marketing Careers",
-    tagline: "Empowering the Next Generation of Marketers",
-    shortDescription: "Marketing Education",
-    detailedDescription:
-      "Education.MarketIQ Junction provides specialized marketing education and training programs to help individuals excel in the ever-evolving digital marketing landscape. Our courses cover SEO, content strategy, social media marketing, and data-driven advertising, equipping learners with the tools and skills needed to drive measurable results for businesses.",
-    keyFeatures: [
-      "Comprehensive Marketing Courses: Covering SEO, PPC, content marketing, and analytics.",
-      "Industry-Relevant Training: Taught by experienced professionals with real-world insights.",
-      "Hands-On Projects: Practical assignments that simulate real marketing challenges.",
-      "Career Guidance: Personalized support to help learners navigate and grow their marketing careers.",
-      "Community Access: Join a network of marketing professionals for collaboration and growth.",
-    ],
-    logo: "/images/edu.marketiq.jpeg",
-    link: "/brands/edu-marketiq-junction",
-    isExternal: false,
-  },
+  }
+  
   // Add more brands as needed
 ];
 
